@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link de mi css-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!--link de tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title>Reservas</title>
+
+</head>
+
+<body>
+
+    <!--encabezado de mi sitio web-->
+
+    <header id="arriba">
+
+        <!--logo-->
+        <img src="../images/logo.jpg" alt="logo de mi restaurante">
+
+        <!--menu de navegacion-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+
+                <li>
+                    <a href="reservas.html">Reservas</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contenido de la pagina Reservas-->
+
+    <main>
+
+        <!--titulo y subtitulo de la seccion Reservas-->
+        <h1>Reservas</h1>
+
+        <h2>Haga su reserva</h2>
+
+        <!--formulario de reserva-->
+        <form>
+            <fieldset>
+                <legend>Formulario de reserva</legend>
+
+                <div>
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombres" id="nombre" placeholder="Nombre y Apellido">
+                </div>
+
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" name="telefono" id="telefono" placeholder="sin 0 y sin 15">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="correo electronico" id="email" placeholder="Correo electronico">
+                </div>
+
+                <div>
+                    <label for="comensales">Cantidad de comensales</label>
+                    <select name="comensales" id="comensales">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+
+                <div>
+                    <label for="horario">Horario</label>
+                    <select name="horario" id="horario">
+                        <option value="horario1">12:00</option>
+                        <option value="horario2">12:30</option>
+                        <option value="horario3">13:00</option>
+                        <option value="horario4">13:30</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="mensaje" id="comentarios" cols="30" rows="10"
+                        placeholder="Deje su mensaje"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Reservar">
+                </div>
+
+            </fieldset>
+        </form>
+
+        <!--listado de condiciones para poder reservar (no son pasos numerados)-->
+        <div>
+            <ul>
+                <li>condicion de reserva 1</li>
+                <li>condicion de reserva 2</li>
+                <li>condicion de reserva 3</li>
+            </ul>
+        </div>
+
+        <!--telefono para poder reservar-->
+        <div>
+            <h2>O llamanos al</h2>
+            <p>numero de telefono de contacto</p>
+        </div>
+
+    </main>
+
+    <!--pie de pagina de mi sitio web-->
+
+    <footer>
+        <h3>Ubicacion</h3>
+        <p>direccion de mi restaurante</p>
+
+        <h3>Contacto</h3>
+        <p>numero de telefono</p>
+
+        <!--redes sociales-->
+        <h3>Seguinos</h3>
+        <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+
+        <h3>Newsletter</h3>
+        <!--formulario de suscripcion para el newsletter-->
+        <form>
+            <fieldset>
+                <legend>Newsletter</legend>
+
+                <div>
+                    <label for="email">Dejanos tu email</label>
+                    <input type="email" name="correo electronico" id="email" placeholder="correo electronico">
+                </div>
+
+                <div>
+                    <input type="submit" value="Suscribite">
+                </div>
+            </fieldset>
+        </form>
+
+        <!--derechos de autor-->
+        <p>Todos los derechos reservados</p>
+
+        <!--boton para volver arriba-->
+        <a href="#arriba">Ir arriba</a>
+    </footer>
+</body>
+
+</html>

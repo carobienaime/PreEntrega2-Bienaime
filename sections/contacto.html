@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link de mi css-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!--link de tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <!--encabezado de mi sitio web-->
+
+    <header id="arriba">
+
+        <!--logo-->
+        <img src="../images/logo.jpg" alt="logo de mi restaurante">
+
+        <!--menu de navegacion-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+
+                <li>
+                    <a href="reservas.html">Reservas</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contenido de la pagina Contacto-->
+
+    <main>
+
+        <!--titulo + subtitulo + texto de indicacion de la seccion Contacto-->
+        <h1>Contacto</h1>
+
+        <h2>Contactenos</h2>
+        <p>Deje su mensaje y le responderemos a la brevedad.</p>
+
+        <!--formulario de contacto-->
+        <form>
+            <fieldset>
+                <legend>formulario de contacto</legend>
+                <div>
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombres" id="nombre" placeholder="Nombre y Apellido">
+                </div>
+
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" name="telefono" id="telefono" placeholder="sin 0 y sin 15">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="correo electronico" id="email" placeholder="Correo electronico">
+                </div>
+
+                <div>
+                    <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto">
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                        placeholder="Escriba su mensaje aqui..."></textarea>
+                </div>
+
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+
+            </fieldset>
+        </form>
+
+        <!--ubicacion + horarios + telefonos de contacto de mi restaurante-->
+        <div>
+            <h2>Ubicacion</h2>
+            <p>direccion de mi restaurante</p>
+
+            <h2>Horarios</h2>
+            <p>horarios de apertura y cierre de mi restaurante</p>
+
+            <h2>Telefono</h2>
+            <p>telefono de contacto de mi restaurante</p>
+        </div>
+
+
+        <!--mapa de ubicacion de mi restaurante-->
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13154.421311757531!2d-58.5201164!3d-34.4875351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb040d363f587%3A0x78e513cecbc25f7f!2sHip%C3%B3dromo%20de%20San%20Isidro!5e0!3m2!1ses-419!2sar!4v1679338512748!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <!--pie de pagina de mi sitio web-->
+
+    <footer>
+        <h3>Ubicacion</h3>
+        <p>direccion de mi restaurante</p>
+
+        <h3>Contacto</h3>
+        <p>numero de telefono</p>
+
+        <!--redes sociales-->
+        <h3>Seguinos</h3>
+        <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+
+        <h3>Newsletter</h3>
+        <!--formulario de suscripcion para el newsletter-->
+        <form>
+            <fieldset>
+                <legend>Newsletter</legend>
+
+                <div>
+                    <label for="email">Dejanos tu email</label>
+                    <input type="email" name="correo electronico" id="email" placeholder="correo electronico">
+                </div>
+
+                <div>
+                    <input type="submit" value="Suscribite">
+                </div>
+            </fieldset>
+        </form>
+
+        <!--derechos de autor-->
+        <p>Todos los derechos reservados</p>
+
+        <!--boton para volver arriba-->
+        <a href="#arriba">Ir arriba</a>
+    </footer>
+
+</body>
+
+</html>
